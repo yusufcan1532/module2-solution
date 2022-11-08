@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1 {
+    text-align: center;
+}
+.Container {
+    margin: 60px 30px 0 30px;
+}
+.h1 {
+ position: absolute;
+ right: 0;
+ top: 0;
+ padding: 5px 15px 5px 15px;
+ border: 2px solid black;
+ border-radius: 2px;
+ background-color: pink;
+ font-size: 20px;   
+}
+.h2 {
+position: absolute;
+ right: 0;
+ top: 0;
+ padding: 5px 40px 5px 40px;
+ border: 2px solid black;
+ border-radius: 2px;
+ background-color: lightcoral;
+ font-size: 20px;   
+   }
+.h3 {
+position: absolute;
+right: 0;
+top: 0;
+padding: 5px 40px 5px 40px;
+ border: 2px solid black;
+ border-radius: 2px;
+ background-color: burlywood;
+font-size: 20px;   
+   }
+.Chicken {
+ position: relative;
+ width: 30%;
+ height: 200px;
+ float: left;
+ background-color: grey;
+ margin-left: 10px;
+ margin-right: 10px;
+ border: 2px solid black;
+ 
+}
+.Beef {
+    position: relative;
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.Sushi {
+    position: relative;
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+   }
+   p {
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+   }
+   @media (min-width: 768px) and (max-width: 991px) {
+   
+   .Chicken {
+    width: 47%;
+   }
+   .Beef {
+    width: 47%;
+   }
+   .Sushi {
+    margin-top: 25px;
+    width: 97%;
+   }
+   }
+   @media (max-width: 767px) {
+.Chicken {
+    width: 100%;
+}
+.Beef {
+    margin-top: 25px;
+    width: 100%;
+}
+.Sushi {
+    width: 100%;
+    margin-top: 25px;
+}
+   }
+   
